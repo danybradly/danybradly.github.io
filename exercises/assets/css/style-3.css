@@ -12,44 +12,31 @@ input, button, textarea, select { font: inherit }
 /* ====== PADDING AROUND WEB PAGE BODY CONTENT ======  */
 body { padding: 4% 20% }
 
-
-body { background-color: #239daa; }
+body { background-color: lightblue; }
 
 /* Desktops */
 @media (min-width: 768px) {
-    body { padding: 4% 20% } 
+    section { padding: 4% 20% }
  }
  
  /* Mobiles */
  @media (max-width: 767px) {
-    body { padding: 8% 5% }
+    section { padding: 8% 5% }
  }
 
-
- 
-h1 {
-    font-size: 84px;
-    color: brown;
-    
-}
-
 h2 {
-    font-size: 36px;
+    font-size: 56px;
     margin-bottom: 4px;
-    color: brown;
-    
+    color: blue;
 }
 
 h3 {
-    font-size: 24px;
+    font-size: 32px;
     margin-bottom: 4px;
-    color: brown;
-    
 }
 
 p {
-    font-size: 18px;
-    color: brown;
-    
+    font-size: 24px;
+    margin-bottom: 16px
 }
-a { color: brown; }
+a { color: blue; }

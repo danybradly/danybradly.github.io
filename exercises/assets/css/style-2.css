@@ -12,12 +12,14 @@ input, button, textarea, select { font: inherit }
 /* ====== PADDING AROUND WEB PAGE BODY CONTENT ======  */
 body { padding: 4% 20% }
 
+/* ================= ENDS ================ */
 
-body { background-color: #239daa; }
+body { background-color: purple; }
+
 
 /* Desktops */
 @media (min-width: 768px) {
-    body { padding: 4% 20% } 
+    body { padding: 4% 20% }
  }
  
  /* Mobiles */
@@ -25,31 +27,28 @@ body { background-color: #239daa; }
     body { padding: 8% 5% }
  }
 
-
  
 h1 {
     font-size: 84px;
-    color: brown;
-    
+    margin-bottom: 64px;
+    text-align: center;
+    font-weight: normal;
+    letter-spacing: 4px;
+    color: white;
 }
 
 h2 {
-    font-size: 36px;
+    font-size: 28px;
     margin-bottom: 4px;
-    color: brown;
-    
-}
-
-h3 {
-    font-size: 24px;
-    margin-bottom: 4px;
-    color: brown;
-    
-}
+    margin-top: 54px;
+    text-transform: uppercase;
+    color: white;
 
 p {
-    font-size: 18px;
-    color: brown;
-    
+    font-size: 20px;
+    font-family: sans-serif;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    ccolor: white;
 }
-a { color: brown; }
+a { color: white; }
