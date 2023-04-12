@@ -1,0 +1,22 @@
+/* Add your custom CSS here */
+
+.section-selector-1 { background-color: var(--lime-300) }
+
+.section-selector-1.cols-2-half .col-2 h2 {
+    font-family: 'Saira Condensed', sans-serif;
+    letter-spacing: 1px;
+    font-size: calc(28px + (42 - 28) * ((100vw - 320px) / (1140 - 320)));
+    margin-top: 32px;
+    margin-bottom: 0;
+}
+
+.section-selector-2.theme-light .col-3 { border-color: var(--gray-300) }
+.section-selector-2 { font-family: 'Playfair Display', serif }
+
+
+.section-selector-3.theme-dark {
+    background-image: linear-gradient(to top right, #0f172a, #1c2c51);
+    font-family: 'Inter', sans-serif;
+}
+.section-selector-3 .col-1 h2 { font-weight: 200 }
+.section-selector-3 .col-3 h3 { font-weight: 400 }
