@@ -1,20 +1,22 @@
 /* Add your custom CSS here */
-body {font-family: 'Outfit', sans-serif;}
 
-.section-selector-1 { background-color: var(--trend-700) }
-.section-selector-1 > .badge span { color: var(--white-000) }
-.section-selector-1 > .badge span { background-color: var(--trend-700) }
+.section-selector-1 { background-color: var(--lime-300) }
 
-.section-selector-2 { background-color: var(--trend-800) }
-.section-selector-3 { background-color: var(--trend-700) }
+.section-selector-1.cols-2-half .col-2 h2 {
+    font-family: 'Saira Condensed', sans-serif;
+    letter-spacing: 1px;
+    font-size: calc(28px + (42 - 28) * ((100vw - 320px) / (1140 - 320)));
+    margin-top: 32px;
+    margin-bottom: 0;
+}
 
-.section-selector-4.theme-dark { background-color: var(--trend-700) }
-.section-selector-4 div[class^='flex-cols-'] div[class^='col-'] figure.icon { color: var(--blue-300) }
-
-.section-selector-1 h2
-.section-selector-2 h2
-.section-selector-3 h2 
-.section-selector-4 h2 {font-weight: 400 ;}
+.section-selector-2.theme-light .col-3 { border-color: var(--gray-300) }
+.section-selector-2 { font-family: 'Playfair Display', serif }
 
 
-
+.section-selector-3.theme-dark {
+    background-image: linear-gradient(to top right, #0f172a, #1c2c51);
+    font-family: 'Inter', sans-serif;
+}
+.section-selector-3 .col-1 h2 { font-weight: 200 }
+.section-selector-3 .col-3 h3 { font-weight: 400 }
