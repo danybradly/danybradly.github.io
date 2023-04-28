@@ -1,67 +1,30 @@
-/* Add your custom CSS here */
-body {font-family: 'Neucha', cursive;}
-.section-selector-1 > p { color: var(--purple-800) }
 
 
-.section-selector-2 { background-color: var(--pink-200) }
-.section-selector-2 h2 { color: var(--red-700) }
+header .col-text h2, .col-1 > h3 { line-height: 1.8 }
 
-.section-selector-3 { background-color: var(--green-200) }
-.section-selector-3 h2 { color: var(--green-700) }
+nav.theme-light.menu-sticky.menu-on-scroll .nav-toggle { background-color: var(--black-000) }
+nav.theme-light,
+nav.theme-light ul.links-wrapper.active { background-color: var(--brown-500) }
+nav.theme-light ul.links-wrapper li a:link,
+nav.theme-light ul.links-wrapper li a:visited { color: var(--black-000) }
+nav.theme-light ul.links-wrapper li a:focus,
+nav.theme-light ul.links-wrapper li a:hover,
+nav.theme-light ul.links-wrapper li a:active { color: var(--white-000) }
+header.theme-light { background-color: var(--lime-800) }
+header.theme-light h1 { color: var(--brown-200) }
+header.theme-light .container-btn a.btn:nth-child(1):link,
+header.theme-light .container-btn a.btn:nth-child(1):visited { color: var(--amber-700) }
 
-.section-selector-4 { background-color: var(--purple-800) }
-.section-selector-4 h2 { color: var(--white-000) }
+header.theme-light .container-btn a.btn:nth-child(1):focus,
+header.theme-light .container-btn a.btn:nth-child(1):hover,
+header.theme-light .container-btn a.btn:nth-child(1):active { color: var(--white-000) }
 
-.section-selector-5 { background-color: var(--yellow-200) }
-.section-selector-5 h2 { color: var(--yellow-600) }
+header.theme-light .container-btn a.btn:nth-child(2):link,
+header.theme-light .container-btn a.btn:nth-child(2):visited { color: var(--black-000) }
 
-header h1 { font-size: calc(64px + (148 - 64) * (100vw - 320px) / (1920 - 320)); }
-header h2 { font-size: calc(32px + (64 - 32) * (100vw - 320px) / (1920 - 320)); }
-
-header h1, header h2 { letter-spacing: -1px }
-section > p.deckhead { font-size: calc(24px + (42 - 24) * ((100vw - 320px) / (1140 - 320))); }
-
-.cols-2-half .col-2 h2 {
-    font-size: calc(32px + (56 - 32) * ((100vw - 320px) / (1140 - 320)))
- }
- 
- .cols-2-half .col-2 p {
-    font-size: calc(18px + (22 - 18) * ((100vw - 320px) / (1140 - 320)))
- }
- 
- .cols-2-half .col-2 h2, .cols-2-half .col-2 p { letter-spacing: 1px }  
-
- .section-selector-6 input, .section-selector-6 button {
-    font: inherit;
-    border: 0;
-  }
-  .section-selector-6 input:focus, .section-selector-6 button:focus {
-    outline: none;
-  }
-
-  .section-selector-6 form {
-    display: flex;
-    grid-column: 2;
-  }
-
-  .section-selector-6 input {
-    flex-grow: 1;
-    padding: 0.5em 0.75em;
-    border: solid 1px #888;
-    margin-right: 12px;
-  }
-
-  .section-selector-6  button {
-    padding: 0.5em 0.75em;
-    background: #8fef9f;
-  }
-
-
-
-
-
-
-
+header.theme-light .container-btn a.btn:nth-child(2):focus,
+header.theme-light .container-btn a.btn:nth-child(2):hover,
+header.theme-light .container-btn a.btn:nth-child(2):active { background-color: var(--white-000) }
 
 
 
